@@ -13,4 +13,6 @@ export class BodyComponent {
   };
 
   mostrar = true;
+
+  personajes: string[] = ['Spiderman', 'Venom', 'Dr. Octopus'];
 }
