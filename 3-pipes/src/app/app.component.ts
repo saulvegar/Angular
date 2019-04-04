@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   nombre = "Fernando";
+  nombre2 = "saUl vega ramIrez";
 
   arreglo = [1,2,3,4,5,6,7,8,9,10];
 
@@ -29,4 +30,8 @@ export class AppComponent {
   valorDePromesa = new Promise((resolve, reject) => {
     setTimeout(() => resolve('LLego la data'), 3500);
   })
+
+  fecha = new Date();
+
+  video = "Sv6dMFF_yts";
 }
